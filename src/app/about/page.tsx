@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const page = () => {
   return (
-    <div className="h-screen w-full rounded-md bg-zinc-850 relative flex items-center justify-center antialiased">
+    <div className="h-screen w-full bg-black rounded-md bg-zinc-850 relative flex items-center justify-center antialiased">
       <div className="p-4 sm:flex gap-10 sm:p-2 ">
       <Image
                     src={"/images/artist.jpg"}

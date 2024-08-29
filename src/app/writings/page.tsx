@@ -14,19 +14,19 @@ const page = () => {
       <div className='gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center mt-20'>
         <Link href={"/songs"}>
         <CardSpotlight className="h-48 w-48 flex justify-center items-center">
-          <h1 className='text-3xl text-center'>Songs</h1>
+          <h1 className='text-3xl text-center text-white'>Songs</h1>
         </CardSpotlight>
         </Link>
 
         <Link href={"/ghazals"}>
         <CardSpotlight className="h-48 w-48 flex justify-center items-center">
-          <h1 className='text-3xl text-center'>Ghazals</h1>
+          <h1 className='text-3xl text-center text-white'>Ghazals</h1>
         </CardSpotlight>
         </Link>
 
         <Link href={"/shayari"}>
         <CardSpotlight className="h-48 w-48 flex justify-center items-center">
-          <h1 className='text-3xl text-center'>Shayari</h1>
+          <h1 className='text-3xl text-center text-white'>Shayari</h1>
         </CardSpotlight>
         </Link>
       </div>

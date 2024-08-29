@@ -5,7 +5,7 @@ import { faSpotify, faYoutube, faInstagram, faFacebook, faXTwitter } from '@fort
 
 const page = () => {
   return (
-    <div className='mt-[250px] mx-14 flex flex-wrap items-center justify-center'>
+    <div className='mt-[250px] bg-black mx-14 flex flex-wrap items-center justify-center'>
       <div className=' px-4 mx-w-48 mt-4'>
         <h1 className='text-center text-2xl'>
           Contact

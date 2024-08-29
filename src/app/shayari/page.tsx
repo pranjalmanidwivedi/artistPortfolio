@@ -11,7 +11,7 @@ const page = () => {
   const shayari = writingData.writings.filter((writings) => writings.type==="shayari")
 
   return (
-    <div className="gap-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:px-48 justify-evenly mt-10 px-4 py-4 pt-28">
+    <div className="gap-8 grid grid-cols-1 bg-black sm:grid-cols-2 lg:grid-cols-3 lg:px-48 justify-evenly mt-10 px-4 py-4 pt-28">
           {shayari.map((shayari) => (
             
             <div key={shayari.id} className="flex justify-evenly items-center">
