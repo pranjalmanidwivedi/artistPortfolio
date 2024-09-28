@@ -13,8 +13,8 @@ const page = ({ params }: { params: { title: string } }) => {
   ));
 
   return (
-    <div className='flex items-center justify-center mt-40 py-5'>
-      <p className='text-left text-xl'>
+    <div className='flex items-center justify-center mt-40 py-5 px-5'>
+      <p className='text-left text-l'>
       {descriptionWithLineBreaks}
       </p>
     </div>
