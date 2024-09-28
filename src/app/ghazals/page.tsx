@@ -14,6 +14,7 @@ const page = () => {
     <div className="gap-8 grid grid-cols-1 bg-black sm:grid-cols-2 lg:grid-cols-3 lg:px-48 justify-evenly mt-10 px-4 py-4 pt-28">
           {ghazals.map((ghazals) => (
             <div key={ghazals.id} className="flex justify-evenly items-center">
+              <Link href={`/ghazals/${ghazals.title}`}>
               <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
                   <Image
                     src={ghazals.imageUrl}
@@ -27,7 +28,7 @@ const page = () => {
                   </p>
 
                 </BackgroundGradient>
-            </div>
+              </Link>            </div>
           ))}
         </div>
   )
